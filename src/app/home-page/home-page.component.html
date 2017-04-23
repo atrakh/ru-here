@@ -1,0 +1,11 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h3>
+        <div *ngFor="let m of mutual; let i=index">
+          {{i+1}}: {{m.title}} with {{m.mutual}} on {{m.day}}days at {{m.time}} in {{m.location}}
+        </div>
+      </h3>
+    </div>
+  </div>
+</div>

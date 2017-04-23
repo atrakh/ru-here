@@ -1,0 +1,13 @@
+<div class = "container">
+	<div class="loginmodal-container">
+		<form #f="ngForm" (ngSubmit)="onSubmit(f)" novalidate>
+		    <h3 class="form-signin-heading">Login to netID</h3>
+
+			  <input type="text" ngModel required #netid="ngModel" class="form-control" name="Username" placeholder="Username" required="" autofocus="" />
+			  <input type="password" ngModel required #password="ngModel" class="form-control" name="Password" placeholder="Password" required=""/>
+
+			  <button class="btn btn-lg btn-primary btn-block" name="Submit" value="submit" type="submit">Submit</button>
+		</form>
+		<button class="link" (click)="skipLine()">Don't like waiting in line? Click to use cached data.</button>
+	</div>
+</div>
