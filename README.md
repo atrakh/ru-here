@@ -1,5 +1,5 @@
 # RU Here
-Ever get tired of tediously messaging friends every semester to figure out whose going to be in your classes? 
+Ever get tired of tediously messaging friends every semester to figure out who's going to be in your classes? 
 
 Well, RU Here is here to save the day! :^)
 
